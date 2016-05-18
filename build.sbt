@@ -5,7 +5,7 @@ organization := "org.pitest"
 
 version := "1.1.10-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+crossScalaVersions := Seq("2.11.8")
 
 libraryDependencies += "org.pitest" % "pitest" % "1.1.10"
 
